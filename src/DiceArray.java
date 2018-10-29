@@ -11,6 +11,9 @@ public class DiceArray
 			int sum = die1.roll() + die2.roll();			
 			values [sum] ++;
 		}
+		for (int i=2; i<13; i++)
+		{
+			System.out.println("You rolled " + count [i] + " " + i + "'s");
 		System.out.println("You rolled a 2 " + values [2] + " times");
 		System.out.println("You rolled a 3 " + values [3] + " times");
 		System.out.println("You rolled a 4 " + values [4] + " times");
